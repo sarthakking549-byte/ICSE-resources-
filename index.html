@@ -174,10 +174,10 @@
         }
 
         /* Custom Badge Colors */
-        .badge-maths { background-color: #E3F2FD; color: #1E88E5; }
-        .badge-physics { background-color: #EDE7F6; color: #5E35B1; }
-        .badge-chemistry { background-color: #E8F5E9; color: #43A047; }
-        .badge-computer { background-color: #FFF3E0; color: #FB8C00; }
+        .badge-notes { background-color: #EBF1EC; color: #5B705E; }
+        .badge-pyqs { background-color: #FFF3E0; color: #FB8C00; }
+        .badge-papers { background-color: #E3F2FD; color: #1E88E5; }
+        .badge-toppers { background-color: #EDE7F6; color: #5E35B1; }
 
         .card h3 {
             font-size: 1.2rem;
@@ -237,7 +237,6 @@
     <!-- Header Navigation -->
     <nav>
         <div class="logo">ICSE Hub</div>
-        <!-- Your name elegantly added here -->
         <div class="curator-tag">Curated by Sarthak</div>
     </nav>
 
@@ -249,56 +248,58 @@
         <!-- Functional Search Bar -->
         <div class="search-container">
             <span class="search-icon">🔍</span>
-            <input type="text" id="searchInput" class="search-bar" placeholder="Search subject, chapter or resource..." onkeyup="filterResources()">
+            <input type="text" id="searchInput" class="search-bar" placeholder="Search notes, pyqs, specimen papers..." onkeyup="filterResources()">
         </div>
     </header>
 
     <!-- Content Grid -->
     <main class="main-container">
-        <h2 class="grid-title">Class 10 Free Resources</h2>
+        <h2 class="grid-title">Essential Study Material</h2>
         
         <div class="resources-grid" id="resourcesGrid">
             
-            <!-- Card 1: Mathematics -->
-            <div class="card" data-title="mathematics maths commercial mathematics trigonometry circles premium notes">
+            <!-- Card 1: Study Notes -->
+            <div class="card" data-title="handwritten notes revision guides study notes summary chapters class 10">
                 <div>
-                    <div class="subject-badge badge-maths">Mathematics</div>
-                    <h3>Class 10 Revision Notes</h3>
-                    <p>Comprehensive formula sheets and step-by-step solutions for Commercial Mathematics and Geometry.</p>
+                    <div class="subject-badge badge-notes">Revision Notes</div>
+                    <h3>Handwritten Study Notes</h3>
+                    <p>Chapter-wise summary sheets, clear formulas, and quick revision guides for all major ICSE subjects.</p>
                 </div>
-                <!-- Replace '#' with your actual Google Drive/GitHub link later -->
-                <a href="#" class="download-btn">View PDFs</a>
+                <!-- Paste Google Drive/GitHub folder link inside the href="..." below later -->
+                <a href="#" class="download-btn">Access Notes</a>
             </div>
 
-            <!-- Card 2: Physics -->
-            <div class="card" data-title="physics force work energy power sound electricity specimen papers">
+            <!-- Card 2: PYQs -->
+            <div class="card" data-title="pyqs previous year question papers board exams past papers 10 years">
                 <div>
-                    <div class="subject-badge badge-physics">Physics</div>
-                    <h3>Topper Hand-written Notes</h3>
-                    <p>Clean, handwritten explanations for Light, Electricity, and Sound with solved numerical problems.</p>
+                    <div class="subject-badge badge-pyqs">PYQs (Past Papers)</div>
+                    <h3>Chapter-wise PYQs</h3>
+                    <p>Last 10 years of solved board examination questions organized neatly by individual chapters.</p>
                 </div>
-                <a href="#" class="download-btn">View PDFs</a>
+                <a href="#" class="download-btn">View PYQs</a>
             </div>
 
-            <!-- Card 3: Chemistry -->
-            <div class="card" data-title="chemistry organic chemistry mole concept periodic table notes">
+            <!-- Card 3: Specimen Papers -->
+            <div class="card" data-title="specimen papers sample papers model papers latest pattern cisce">
                 <div>
-                    <div class="subject-badge badge-chemistry">Chemistry</div>
-                    <h3>Organic Chemistry Guide</h3>
-                    <p>Simplified reaction charts and quick revision notes for the entire organic chemistry block.</p>
+                    <div class="subject-badge badge-papers">Specimen Papers</div>
+                    <h3>Official Specimen Papers</h3>
+                    <p>Latest official CISCE board specimen question papers with completely solved marking schemes.</p>
                 </div>
-                <a href="#" class="download-btn">View PDFs</a>
+                <a href="#" class="download-btn">View Papers</a>
             </div>
 
-            <!-- Card 4: Computer Applications -->
-            <div class="card" data-title="computer applications java arrays strings oops question bank">
+            <!-- Card 4: Topper Sheets -->
+            <div class="card" data-title="topper answer sheets presentation tips paper solving analysis">
                 <div>
-                    <div class="subject-badge badge-computer">Computers</div>
-                    <h3>Java Programming Bank</h3>
-                    <p>Top 50 board examination Java programs solved with output patterns, arrays, and string manipulations.</p>
+                    <div class="subject-badge badge-toppers">Topper Sheets</div>
+                    <h3>Topper Answer Scripts</h3>
+                    <p>Real board answer sheets from previous year toppers to learn ideal paper presentation patterns.</p>
                 </div>
-                <a href="#" class="download-btn">View PDFs</a>
+                <a href="#" class="download-btn">Open Sheets</a>
             </div>
 
             <!-- Hidden Element for Empty Search State -->
-              
+            
+        
+            
